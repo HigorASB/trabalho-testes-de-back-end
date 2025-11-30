@@ -1,0 +1,9 @@
+### Fazer transferência
+POST http://localhost:3000/transfer
+Content-Type: application/json
+
+{
+  "senderId": "1",
+  "receiverId": "2",
+  "amount": 10
+}
